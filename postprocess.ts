@@ -45,7 +45,6 @@ type Traits = {
 };
 
 const headers = [
-  "id",
   "rank",
   "background",
   "skin",
@@ -59,7 +58,7 @@ const headers = [
   "glasses",
 ];
 
-type RarityData = { id: string; rank: string } & Traits;
+type RarityData = { rank: string } & Traits;
 
 // Step 1: Read the downloaded_filename JSON
 const filename = Deno.args[0]; // Same name as downloaded_filename `const filename = 'btc-price.json';`
@@ -89,10 +88,10 @@ const enhancedData: Array<ParsedData | null> = data
           [header]: rarityData[index],
         };
       },
-      { id, rank: "" }
+      { rank: "" }
     );
 
-    return { ...rarity, price: `${gloom.price}`, url };
+    return { id, price: `${gloom.price}`, ...rarity, url };
   })
   .filter(Boolean);
 
