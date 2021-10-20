@@ -28,7 +28,8 @@ type ParsedData = {
   id: string;
   price: string;
   rank: string;
-  url: string;
+  solanartURL: string;
+  rarityURL: string;
 } & Traits;
 
 type Traits = {
@@ -71,7 +72,8 @@ const db = new DB("glooms.db");
 const enhancedData: Array<ParsedData | null> = data
   .map((gloom) => {
     const [_, id] = gloom.name.split("#");
-    const url = `https://gloom-rarity-page.vercel.app/punk/${id}`;
+    const rarityURL = `https://gloom-rarity-page.vercel.app/punk/${id}`;
+    const solanartURL = `https://solanart.io/search/?token=${gloom.token_add}`;
 
     const queryData = db.query("SELECT * from gloomRarity WHERE id = ?", [id]);
 
@@ -92,7 +94,7 @@ const enhancedData: Array<ParsedData | null> = data
       { rank: "" }
     );
 
-    return { id, price: `${gloom.price}`, ...rarity, url };
+    return { id, price: `${gloom.price}`, ...rarity, rarityURL, solanartURL };
   })
   .filter(Boolean);
 
