@@ -45,6 +45,7 @@ type Traits = {
 };
 
 const headers = [
+  "id",
   "rank",
   "background",
   "skin",
