@@ -7055,6 +7055,23 @@
     "solanartURL": "https://solanart.io/search/?token=Hy4zkZUewRafgBgX7bsUK8YoYK8B9b5CBdQxjt75ymtr"
   },
   {
+    "id": 4414,
+    "price": "1.49",
+    "rank": 1851,
+    "background": "Yellow",
+    "skin": "White",
+    "hair": "Ponytail Black",
+    "mouth": "Pink",
+    "eyes": "Black",
+    "eyebrows": "Small",
+    "clothes": "Hoodie",
+    "headAccessory": "",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4414",
+    "solanartURL": "https://solanart.io/search/?token=8DAQJ4urLvDAY6SDqBvXhSAWUyt6WmZqoA5NpyaB4EGF"
+  },
+  {
     "id": 103,
     "price": "1.49",
     "rank": 7608,
@@ -20738,23 +20755,6 @@
     "glasses": "Monocle Solana",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/8709",
     "solanartURL": "https://solanart.io/search/?token=79DBkcbsUBQauaVK7CMPYQsVjiMrawrGb3MH6C2a122V"
-  },
-  {
-    "id": 4414,
-    "price": "4.59",
-    "rank": 1851,
-    "background": "Yellow",
-    "skin": "White",
-    "hair": "Ponytail Black",
-    "mouth": "Pink",
-    "eyes": "Black",
-    "eyebrows": "Small",
-    "clothes": "Hoodie",
-    "headAccessory": "",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4414",
-    "solanartURL": "https://solanart.io/search/?token=8DAQJ4urLvDAY6SDqBvXhSAWUyt6WmZqoA5NpyaB4EGF"
   },
   {
     "id": 9156,
