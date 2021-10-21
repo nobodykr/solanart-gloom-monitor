@@ -17,23 +17,6 @@
     "solanartURL": "https://solanart.io/search/?token=H1xMEcdbpsstTYv7UnNc8QatWGcPd9zVsSrS4n4u6F1p"
   },
   {
-    "id": 1434,
-    "price": 0.34,
-    "rank": 5855,
-    "background": "Green",
-    "skin": "Cyborg",
-    "hair": "Bob White",
-    "mouth": "Pink",
-    "eyes": "Teal",
-    "eyebrows": "Small",
-    "clothes": "Tshirt",
-    "headAccessory": "Mushrooms",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/1434",
-    "solanartURL": "https://solanart.io/search/?token=ALVPpd99pNQwbWyLttxUKG1YWyUbyUT1XsSNgp5cE6iD"
-  },
-  {
     "id": 372,
     "price": 0.34,
     "rank": 5362,
@@ -1190,6 +1173,23 @@
     "solanartURL": "https://solanart.io/search/?token=8LTNduKeQwFwnz6PvWQFJJu1qWGVb1GbpRGYMZthHTas"
   },
   {
+    "id": 9096,
+    "price": 0.5,
+    "rank": 2692,
+    "background": "Beige",
+    "skin": "Black",
+    "hair": "Ponytail Black",
+    "mouth": "Pink Fangs",
+    "eyes": "Teal",
+    "eyebrows": "Thin",
+    "clothes": "Tshirt",
+    "headAccessory": "Clouds",
+    "faceAccessory": "Facemask",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/9096",
+    "solanartURL": "https://solanart.io/search/?token=3HfdwDAWD2Y56n11neGLVboXJn2CXcVoCt779r1biWZ6"
+  },
+  {
     "id": 5433,
     "price": 0.5,
     "rank": 4404,
@@ -1496,6 +1496,23 @@
     "solanartURL": "https://solanart.io/search/?token=DedZqWPctG6PtNyqLbicf5QcUc9m137GteansXQ23Xc1"
   },
   {
+    "id": 4534,
+    "price": 0.5,
+    "rank": 6866,
+    "background": "Yellow",
+    "skin": "White",
+    "hair": "Bob Black",
+    "mouth": "Pink",
+    "eyes": "Purple",
+    "eyebrows": "Worry",
+    "clothes": "Turtleneck",
+    "headAccessory": "Helix Hat",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4534",
+    "solanartURL": "https://solanart.io/search/?token=3oRg2XgR14X7EpdBC3Mqi1SFGFPz1aaRjW5pbZMC4KgD"
+  },
+  {
     "id": 1675,
     "price": 0.5,
     "rank": 8331,
@@ -1528,23 +1545,6 @@
     "glasses": "Monocle Solana",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6330",
     "solanartURL": "https://solanart.io/search/?token=HjDMUUAk1YVikS1PHU9c9Q6QruhGXFK7wbse94PWnjHk"
-  },
-  {
-    "id": 4534,
-    "price": 0.5,
-    "rank": 6866,
-    "background": "Yellow",
-    "skin": "White",
-    "hair": "Bob Black",
-    "mouth": "Pink",
-    "eyes": "Purple",
-    "eyebrows": "Worry",
-    "clothes": "Turtleneck",
-    "headAccessory": "Helix Hat",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4534",
-    "solanartURL": "https://solanart.io/search/?token=3oRg2XgR14X7EpdBC3Mqi1SFGFPz1aaRjW5pbZMC4KgD"
   },
   {
     "id": 1532,
@@ -1987,23 +1987,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6668",
     "solanartURL": "https://solanart.io/search/?token=6iufHBLsf9cJbfrmU4Cqb83RbiShxJqS9x85EyDDtuS5"
-  },
-  {
-    "id": 9096,
-    "price": 0.65,
-    "rank": 2692,
-    "background": "Beige",
-    "skin": "Black",
-    "hair": "Ponytail Black",
-    "mouth": "Pink Fangs",
-    "eyes": "Teal",
-    "eyebrows": "Thin",
-    "clothes": "Tshirt",
-    "headAccessory": "Clouds",
-    "faceAccessory": "Facemask",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/9096",
-    "solanartURL": "https://solanart.io/search/?token=3HfdwDAWD2Y56n11neGLVboXJn2CXcVoCt779r1biWZ6"
   },
   {
     "id": 2404,
