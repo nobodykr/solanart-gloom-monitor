@@ -8109,6 +8109,23 @@
     "solanartURL": "https://solanart.io/search/?token=99G218JZcrFipPRDyhmNZ7eoyh6Z6baxkpAvK2SSmPfj"
   },
   {
+    "id": 1101,
+    "price": "1.5",
+    "rank": 4513,
+    "background": "Grey",
+    "skin": "Blue",
+    "hair": "Ponytail Black",
+    "mouth": "Black",
+    "eyes": "Teal",
+    "eyebrows": "Scar",
+    "clothes": "Tshirt",
+    "headAccessory": "Horns",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/1101",
+    "solanartURL": "https://solanart.io/search/?token=2YDBuDMCjQsiNZcTj954zeHEMa4Ym1oKuUCcGyg16sy8"
+  },
+  {
     "id": 7227,
     "price": "1.5",
     "rank": 6570,
@@ -11473,23 +11490,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/7689",
     "solanartURL": "https://solanart.io/search/?token=HDsxZkaUa4nG765P4Wvxw6ovWZTVNYwndBozrZggJzK4"
-  },
-  {
-    "id": 1101,
-    "price": "2",
-    "rank": 4513,
-    "background": "Grey",
-    "skin": "Blue",
-    "hair": "Ponytail Black",
-    "mouth": "Black",
-    "eyes": "Teal",
-    "eyebrows": "Scar",
-    "clothes": "Tshirt",
-    "headAccessory": "Horns",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/1101",
-    "solanartURL": "https://solanart.io/search/?token=2YDBuDMCjQsiNZcTj954zeHEMa4Ym1oKuUCcGyg16sy8"
   },
   {
     "id": 6346,
@@ -17780,6 +17780,23 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4926",
     "solanartURL": "https://solanart.io/search/?token=2q3zV23KBvahsuFgWhZhLMriAhxrQT1RNm4xFwVnQBKt"
+  },
+  {
+    "id": 2659,
+    "price": "3",
+    "rank": 5934,
+    "background": "Teal Flat",
+    "skin": "White",
+    "hair": "Ponytail Black",
+    "mouth": "Pink",
+    "eyes": "Teal",
+    "eyebrows": "Arched",
+    "clothes": "Tshirt",
+    "headAccessory": "Top Hat",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/2659",
+    "solanartURL": "https://solanart.io/search/?token=9xypTZhJJRT8T1etELjJWKvmfZYUgGC1LAkLzYGH6DqK"
   },
   {
     "id": 9189,
