@@ -7157,6 +7157,23 @@
     "solanartURL": "https://solanart.io/search/?token=Ex4nbQTDHjQS3f84qkdxyK1NgX3R4DepSQsLGpi38tsZ"
   },
   {
+    "id": 7461,
+    "price": "1.4",
+    "rank": 1485,
+    "background": "Solana2",
+    "skin": "Gold",
+    "hair": "Bob Black",
+    "mouth": "Pink",
+    "eyes": "Blue",
+    "eyebrows": "Scar",
+    "clothes": "Turtleneck",
+    "headAccessory": "Horns",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/7461",
+    "solanartURL": "https://solanart.io/search/?token=3oXh5bLMBXV2D1qu5mV7weGfD9KQqsuhowDRRKUcfQdA"
+  },
+  {
     "id": 5369,
     "price": "1.44",
     "rank": 1495,
@@ -21267,6 +21284,23 @@
     "solanartURL": "https://solanart.io/search/?token=DSM8Z5qxx7HeXk5QPmSruDcnTc6UzNyQLaRXUYvtt4L6"
   },
   {
+    "id": 9454,
+    "price": "4.9",
+    "rank": 686,
+    "background": "Yellow Flat",
+    "skin": "White",
+    "hair": "Ponytail Brown",
+    "mouth": "Black",
+    "eyes": "Teal",
+    "eyebrows": "Arched",
+    "clothes": "Hoodie",
+    "headAccessory": "",
+    "faceAccessory": "Gasmask Gunmetal",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/9454",
+    "solanartURL": "https://solanart.io/search/?token=9rdCagBZsgDQ7LRfmirsbzUKoXnUJnnEtX4iYnFtLxAt"
+  },
+  {
     "id": 255,
     "price": "4.9",
     "rank": 5624,
@@ -23628,23 +23662,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6042",
     "solanartURL": "https://solanart.io/search/?token=3QNqPTmifsu9F1ZExaS3SGcRFyGfadUWG9tMzaiZQg9m"
-  },
-  {
-    "id": 9454,
-    "price": "5.9",
-    "rank": 686,
-    "background": "Yellow Flat",
-    "skin": "White",
-    "hair": "Ponytail Brown",
-    "mouth": "Black",
-    "eyes": "Teal",
-    "eyebrows": "Arched",
-    "clothes": "Hoodie",
-    "headAccessory": "",
-    "faceAccessory": "Gasmask Gunmetal",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/9454",
-    "solanartURL": "https://solanart.io/search/?token=9rdCagBZsgDQ7LRfmirsbzUKoXnUJnnEtX4iYnFtLxAt"
   },
   {
     "id": 3069,
