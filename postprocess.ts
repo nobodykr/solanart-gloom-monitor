@@ -3,7 +3,6 @@
 import {
   readJSON,
   writeCSV,
-  writeJSON,
   removeFile,
 } from "https://deno.land/x/flat@0.0.13/mod.ts";
 
@@ -116,7 +115,6 @@ console.log("Initial Glooms:", data.length);
 console.log("Processed Glooms:", enhancedData.length);
 
 // Step 3. Write a new JSON file with our filtered data
-await writeJSON("gloom-data-processed.json", enhancedData, null, 2);
 await writeCSV("gloom-data-processed.csv", enhancedData);
 console.log("Wrote a post process file");
 
