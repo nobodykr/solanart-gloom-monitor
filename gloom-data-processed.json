@@ -17,6 +17,23 @@
     "solanartURL": "https://solanart.io/search/?token=CvWmQNekWQQESEt5e2V1d7Yva6PYkzEBZWxeKMx99CXm"
   },
   {
+    "id": 6245,
+    "price": 0.34,
+    "rank": 1313,
+    "background": "Solana1",
+    "skin": "Cyborg",
+    "hair": "Ponytail Black",
+    "mouth": "Pink",
+    "eyes": "Teal",
+    "eyebrows": "Worry",
+    "clothes": "Tank Top",
+    "headAccessory": "Helix Hat",
+    "faceAccessory": "Gasmask Teal",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6245",
+    "solanartURL": "https://solanart.io/search/?token=6D9EtbEoBjUudwfHtZJnNv5oQZBUibrUuKKodUNX3Run"
+  },
+  {
     "id": 7156,
     "price": 0.34,
     "rank": 5431,
@@ -4930,6 +4947,23 @@
     "solanartURL": "https://solanart.io/search/?token=8dvULYihziWt7cd63UxnHuCGuieuMR6xiXY5YN8LkU15"
   },
   {
+    "id": 3818,
+    "price": 1,
+    "rank": 3401,
+    "background": "Solana2",
+    "skin": "Cyborg",
+    "hair": "Bob Teal",
+    "mouth": "Pink",
+    "eyes": "Purple",
+    "eyebrows": "Thin",
+    "clothes": "Bandages",
+    "headAccessory": "",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/3818",
+    "solanartURL": "https://solanart.io/search/?token=5MuN1hPLnFN6DKTAKbBHBcZiceEdmTp45pPABEjVCPnM"
+  },
+  {
     "id": 550,
     "price": 1,
     "rank": 2565,
@@ -6305,23 +6339,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6826",
     "solanartURL": "https://solanart.io/search/?token=CujxA6yv6F6kmCqttGSSsr6WAqACVaFHDkgjonP6LAqM"
-  },
-  {
-    "id": 6245,
-    "price": 1.2,
-    "rank": 1313,
-    "background": "Solana1",
-    "skin": "Cyborg",
-    "hair": "Ponytail Black",
-    "mouth": "Pink",
-    "eyes": "Teal",
-    "eyebrows": "Worry",
-    "clothes": "Tank Top",
-    "headAccessory": "Helix Hat",
-    "faceAccessory": "Gasmask Teal",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6245",
-    "solanartURL": "https://solanart.io/search/?token=6D9EtbEoBjUudwfHtZJnNv5oQZBUibrUuKKodUNX3Run"
   },
   {
     "id": 3438,
@@ -8498,23 +8515,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/1554",
     "solanartURL": "https://solanart.io/search/?token=9gPTqpYRDJpme8dLr3NujmeZXhFiHV64pR4XhBfFXZBb"
-  },
-  {
-    "id": 3818,
-    "price": 1.5,
-    "rank": 3401,
-    "background": "Solana2",
-    "skin": "Cyborg",
-    "hair": "Bob Teal",
-    "mouth": "Pink",
-    "eyes": "Purple",
-    "eyebrows": "Thin",
-    "clothes": "Bandages",
-    "headAccessory": "",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/3818",
-    "solanartURL": "https://solanart.io/search/?token=5MuN1hPLnFN6DKTAKbBHBcZiceEdmTp45pPABEjVCPnM"
   },
   {
     "id": 6669,
@@ -12155,6 +12155,23 @@
     "solanartURL": "https://solanart.io/search/?token=J4QmnLxruKUShbzB8ve1XiEcF3ihhhmPnwozhLjPJXmK"
   },
   {
+    "id": 4062,
+    "price": 2,
+    "rank": 566,
+    "background": "Yellow Flat",
+    "skin": "Black",
+    "hair": "Bob Pink",
+    "mouth": "Pink Fangs",
+    "eyes": "Black",
+    "eyebrows": "Scar",
+    "clothes": "Tshirt",
+    "headAccessory": "",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4062",
+    "solanartURL": "https://solanart.io/search/?token=9v2Ctr5vrqwasDpRiadUVUzth19wppMHeo3ZCVPxviUw"
+  },
+  {
     "id": 9568,
     "price": 2,
     "rank": 2225,
@@ -13479,23 +13496,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/162",
     "solanartURL": "https://solanart.io/search/?token=JAgThB31MC363QN6q9K4hqEKW3ZsDuPFC5MAhjx9PBsq"
-  },
-  {
-    "id": 4062,
-    "price": 2.4,
-    "rank": 566,
-    "background": "Yellow Flat",
-    "skin": "Black",
-    "hair": "Bob Pink",
-    "mouth": "Pink Fangs",
-    "eyes": "Black",
-    "eyebrows": "Scar",
-    "clothes": "Tshirt",
-    "headAccessory": "",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4062",
-    "solanartURL": "https://solanart.io/search/?token=9v2Ctr5vrqwasDpRiadUVUzth19wppMHeo3ZCVPxviUw"
   },
   {
     "id": 3724,
@@ -17763,23 +17763,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/4239",
     "solanartURL": "https://solanart.io/search/?token=J7zJwHRWVbf8DdU5ZFyBDkeyP3cxKD7ajABdLFyZ3Ri8"
-  },
-  {
-    "id": 1049,
-    "price": 3,
-    "rank": 5110,
-    "background": "Purple",
-    "skin": "White",
-    "hair": "Bob Pink",
-    "mouth": "Pink",
-    "eyes": "Teal",
-    "eyebrows": "Worry",
-    "clothes": "Tank Top",
-    "headAccessory": "",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/1049",
-    "solanartURL": "https://solanart.io/search/?token=8RjaFCNDpxyNKNQyV1rQZPxx8gaqfJUwkYfkt1nB8m9x"
   },
   {
     "id": 9114,
@@ -24546,6 +24529,23 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/78",
     "solanartURL": "https://solanart.io/search/?token=EDow9vVL57d1ZNiGvXdx6dXpqsyiRUdFepmZv1wTyFUT"
+  },
+  {
+    "id": 1049,
+    "price": 6.8,
+    "rank": 5110,
+    "background": "Purple",
+    "skin": "White",
+    "hair": "Bob Pink",
+    "mouth": "Pink",
+    "eyes": "Teal",
+    "eyebrows": "Worry",
+    "clothes": "Tank Top",
+    "headAccessory": "",
+    "faceAccessory": "",
+    "glasses": "",
+    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/1049",
+    "solanartURL": "https://solanart.io/search/?token=8RjaFCNDpxyNKNQyV1rQZPxx8gaqfJUwkYfkt1nB8m9x"
   },
   {
     "id": 7790,
