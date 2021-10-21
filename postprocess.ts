@@ -105,7 +105,7 @@ console.log("Processed Glooms:", enhancedData.length);
 
 // Step 3. Write a new JSON file with our filtered data
 const newFilename = `gloom-data-processed.json`;
-await writeJSON(newFilename, enhancedData);
+await writeJSON(newFilename, enhancedData, null, 2);
 console.log("Wrote a post process file");
 
 // Delete the original file
