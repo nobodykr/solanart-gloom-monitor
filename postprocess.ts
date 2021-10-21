@@ -2,20 +2,25 @@
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 import {
   readJSON,
+  writeCSV,
   writeJSON,
   removeFile,
 } from "https://deno.land/x/flat@0.0.13/mod.ts";
 
-import { DB } from "https://deno.land/x/sqlite/mod.ts";
+import { DB } from "https://deno.land/x/sqlite@v3.1.1/mod.ts";
 
 type RawData = {
   id: number;
+  // deno-lint-ignore camelcase
   token_add: string;
   price: number;
+  // deno-lint-ignore camelcase
   for_sale: number;
+  // deno-lint-ignore camelcase
   link_img: string;
   name: string;
   escrowAdd: string;
+  // deno-lint-ignore camelcase
   seller_address: string;
   attributes: string;
   skin: null;
@@ -25,9 +30,9 @@ type RawData = {
 };
 
 type ParsedData = {
-  id: string;
+  id: number;
   price: number;
-  rank: string;
+  rank?: string;
   solanartURL: string;
   rarityURL: string;
 } & Traits;
@@ -69,7 +74,7 @@ const data: Array<RawData> = await readJSON(filename);
 const db = new DB("glooms.db");
 
 // Step 2: Filter specific data we want to keep and write to a new JSON file
-const enhancedData: Array<ParsedData | null> = data
+const enhancedData: Array<ParsedData> = data
   .map((gloom) => {
     const [_, id] = gloom.name.split("#");
     const rarityURL = `https://gloom-rarity-page.vercel.app/punk/${id}`;
@@ -79,7 +84,7 @@ const enhancedData: Array<ParsedData | null> = data
 
     if (!queryData.length) {
       console.log("Couldn't find data for gloom:", id);
-      return null;
+      return { id: parseInt(id), price: gloom.price, rarityURL, solanartURL };
     }
 
     const rarityData = queryData[0];
@@ -94,9 +99,16 @@ const enhancedData: Array<ParsedData | null> = data
       { rank: "" }
     );
 
-    return { id, price: gloom.price, ...rarity, rarityURL, solanartURL };
+    return {
+      id: parseInt(id),
+      price: gloom.price,
+      ...rarity,
+      rarityURL,
+      solanartURL,
+    };
   })
-  .filter(Boolean);
+  .filter(Boolean)
+  .sort((a, b) => a.id - b.id);
 
 db.close();
 
@@ -104,8 +116,8 @@ console.log("Initial Glooms:", data.length);
 console.log("Processed Glooms:", enhancedData.length);
 
 // Step 3. Write a new JSON file with our filtered data
-const newFilename = `gloom-data-processed.json`;
-await writeJSON(newFilename, enhancedData, null, 2);
+await writeJSON("gloom-data-processed.json", enhancedData, null, 2);
+await writeCSV("gloom-data-processed.csv", enhancedData);
 console.log("Wrote a post process file");
 
 // Delete the original file
