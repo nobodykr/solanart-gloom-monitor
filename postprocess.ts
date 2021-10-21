@@ -26,7 +26,7 @@ type RawData = {
 
 type ParsedData = {
   id: string;
-  price: string;
+  price: number;
   rank: string;
   solanartURL: string;
   rarityURL: string;
@@ -94,7 +94,7 @@ const enhancedData: Array<ParsedData | null> = data
       { rank: "" }
     );
 
-    return { id, price: `${gloom.price}`, ...rarity, rarityURL, solanartURL };
+    return { id, price: gloom.price, ...rarity, rarityURL, solanartURL };
   })
   .filter(Boolean);
 
