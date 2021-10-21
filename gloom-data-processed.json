@@ -2313,7 +2313,7 @@
   },
   {
     "id": 645,
-    "price": 14,
+    "price": 12.59,
     "rank": 144,
     "background": "Yellow",
     "skin": "Black",
@@ -10337,7 +10337,7 @@
   },
   {
     "id": 3389,
-    "price": 1.6,
+    "price": 1.5,
     "rank": 1005,
     "background": "Teal Flat",
     "skin": "Blue",
@@ -19585,7 +19585,7 @@
   },
   {
     "id": 5968,
-    "price": 3,
+    "price": 2,
     "rank": 195,
     "background": "Teal",
     "skin": "White",
@@ -21724,23 +21724,6 @@
     "glasses": "",
     "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6592",
     "solanartURL": "https://solanart.io/search/?token=Fj21Vs3EUVVdoPztNrjmKPH3yuuCNzaMv1YEX137de3k"
-  },
-  {
-    "id": 6593,
-    "price": 0.8,
-    "rank": 9481,
-    "background": "Green",
-    "skin": "White",
-    "hair": "Bob Black",
-    "mouth": "Pink",
-    "eyes": "Blue",
-    "eyebrows": "Scar",
-    "clothes": "Tshirt",
-    "headAccessory": "",
-    "faceAccessory": "",
-    "glasses": "",
-    "rarityURL": "https://gloom-rarity-page.vercel.app/punk/6593",
-    "solanartURL": "https://solanart.io/search/?token=5W5hM4HaAGrTUjTPowmVYyNypG9Fj2EapH6RrFjvi7yo"
   },
   {
     "id": 6594,
@@ -30210,7 +30193,7 @@
   },
   {
     "id": 9070,
-    "price": 4,
+    "price": 2.5,
     "rank": 1647,
     "background": "Teal",
     "skin": "Black",
@@ -34069,7 +34052,7 @@
   },
   {
     "id": 10000,
-    "price": 8,
+    "price": 5,
     "rank": 2820,
     "background": "Solana1",
     "skin": "Black",
