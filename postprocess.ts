@@ -67,8 +67,9 @@ const headers = [
 type RarityData = { rank: string } & Traits;
 
 // Step 1: Read the downloaded_filename JSON
-const filename = Deno.args[0]; // Same name as downloaded_filename `const filename = 'btc-price.json';`
+const filename = Deno.args[0];
 const data: Array<RawData> = await readJSON(filename);
+const moonrank: Record<string, number> = await readJSON("gloom-moonrank.json");
 
 const db = new DB("glooms.db");
 
@@ -101,6 +102,7 @@ const enhancedData: Array<ParsedData> = data
     return {
       id: parseInt(id),
       price: gloom.price,
+      moonRank: moonrank[id],
       ...rarity,
       rarityURL,
       solanartURL,
@@ -119,4 +121,4 @@ await writeCSV("gloom-data-processed.csv", enhancedData);
 console.log("Wrote a post process file");
 
 // Delete the original file
-await removeFile("./gloom-data.json");
+await removeFile(filename);
