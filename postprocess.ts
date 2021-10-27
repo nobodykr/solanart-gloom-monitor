@@ -1,10 +1,6 @@
 // Helper library written for useful postprocessing tasks with Flat Data
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
-import {
-  readJSON,
-  writeCSV,
-  removeFile,
-} from "https://deno.land/x/flat@0.0.13/mod.ts";
+import { readJSON, writeCSV } from "https://deno.land/x/flat@0.0.13/mod.ts";
 
 import { DB } from "https://deno.land/x/sqlite@v3.1.1/mod.ts";
 
@@ -31,6 +27,7 @@ type RawData = {
 type ParsedData = {
   id: number;
   price: number;
+  moonRank?: string;
   rank?: string;
   solanartURL: string;
   rarityURL: string;
@@ -69,7 +66,7 @@ type RarityData = { rank: string } & Traits;
 // Step 1: Read the downloaded_filename JSON
 const filename = Deno.args[0];
 const data: Array<RawData> = await readJSON(filename);
-const moonrank: Record<string, number> = await readJSON("gloom-moonrank.json");
+const moonrank: Record<string, string> = await readJSON("gloom-moonrank.json");
 
 const db = new DB("glooms.db");
 
@@ -118,7 +115,41 @@ console.log("Processed Glooms:", enhancedData.length);
 
 // Step 3. Write a new JSON file with our filtered data
 await writeCSV("gloom-data-processed.csv", enhancedData);
-console.log("Wrote a post process file");
+console.log("Wrote gloom data");
 
-// Delete the original file
-await removeFile(filename);
+const sortedData = enhancedData.sort((a, b) => {
+  const aRank = parseInt(a.rank || "") + parseInt(a.moonRank || "");
+  const bRank = parseInt(b.rank || "") + parseInt(b.moonRank || "");
+
+  return aRank - bRank;
+});
+
+const buckets = sortedData.reduce<Array<Array<ParsedData>>>(
+  (data, gloom) => {
+    let bucket: number | undefined = undefined;
+    if (gloom.price <= 0.5) {
+      bucket = 0;
+    } else if (gloom.price <= 1) {
+      bucket = 1;
+    } else if (gloom.price <= 1.5) {
+      bucket = 2;
+    } else if (gloom.price <= 2) {
+      bucket = 3;
+    }
+
+    if (bucket !== undefined) {
+      data[bucket].push(gloom);
+    }
+
+    return data;
+  },
+  [[], [], [], []]
+);
+
+const topPicks = buckets.reduce((picks, bucket) => {
+  const bucketSelection = bucket.slice(0, 3);
+  return [...picks, ...bucketSelection];
+}, []);
+
+await writeCSV("gloom-picks.csv", topPicks);
+console.log("Wrote gloom picks");
