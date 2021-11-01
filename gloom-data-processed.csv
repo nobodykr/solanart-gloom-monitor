@@ -20,7 +20,7 @@ id,price,moonRank,rank,background,skin,hair,mouth,eyes,eyebrows,clothes,headAcce
 117,29,66,436,Green,Blue,Ponytail Brown,Pink Fangs,White,Arched,Tank Top,Mushrooms,Gasmask Teal,,https://gloom-rarity-page.vercel.app/punk/117,https://solanart.io/search/?token=8Yob1iNQs4MCiAPbGjATfSJ99LsQKPakP6yP9eWPkjwM
 119,8,4314,3197,Purple,Blue,Bob Teal,Pink,Blue,Arched,Turtleneck,,,,https://gloom-rarity-page.vercel.app/punk/119,https://solanart.io/search/?token=ErFYfq1tnV8GeCmSjiGvjejjK7w3K9E3zYb7mLhVYyTF
 121,1.7,7996,6053,Yellow Flat,Black,Bob Brown,Pink,Purple,Arched,Tank Top,,,,https://gloom-rarity-page.vercel.app/punk/121,https://solanart.io/search/?token=Br93zo8PcN4az8fs6m2cY8t1G3gpaZLa4KkMS3Vn43ht
-131,0.6,800,1803,Green,Blue,Bob Teal,Black,Teal,Small,Tshirt,Helix Hat,Bandaids,,https://gloom-rarity-page.vercel.app/punk/131,https://solanart.io/search/?token=7bn7NySYe1oCQRAUpT74kpWdb5AU79eNW6hCF8bpWZvU
+131,0.3,800,1803,Green,Blue,Bob Teal,Black,Teal,Small,Tshirt,Helix Hat,Bandaids,,https://gloom-rarity-page.vercel.app/punk/131,https://solanart.io/search/?token=7bn7NySYe1oCQRAUpT74kpWdb5AU79eNW6hCF8bpWZvU
 133,6,1315,478,Yellow Flat,White,Ponytail White,Pink,Teal,Arched,Naked,,Bandaids,,https://gloom-rarity-page.vercel.app/punk/133,https://solanart.io/search/?token=82GWAUBT237kARGT1CHYZu3Z9E7BquDgytGTtH94Mo3P
 136,2.33,7981,6015,Teal Flat,Cyborg,Bob Black,Pink,Blue,Arched,Tshirt,,,,https://gloom-rarity-page.vercel.app/punk/136,https://solanart.io/search/?token=HoXDXen6tWPcmdahFVZJes1k9oRe3kX72cVXE2voUooE
 138,4.44,1518,1347,Yellow Flat,Blue,Ponytail Teal,Pink,Teal,Small,Turtleneck,,Facemask,,https://gloom-rarity-page.vercel.app/punk/138,https://solanart.io/search/?token=3P3WiwqADsx6D1zjts3yVE1onMXbzR77Xz6MNHopayfr
@@ -416,6 +416,7 @@ id,price,moonRank,rank,background,skin,hair,mouth,eyes,eyebrows,clothes,headAcce
 2581,1.2,8237,8769,Grey,White,Bob Black,Pink Fangs,Purple,Scar,Tshirt,,,,https://gloom-rarity-page.vercel.app/punk/2581,https://solanart.io/search/?token=9GQ6KMPEWDAwyFfa1i4F26f6NevN4wUEwpwneZn51rRN
 2582,0.98,8884,5234,Pastel,White,Bald,Pink,Teal,Thin,Tshirt,,,,https://gloom-rarity-page.vercel.app/punk/2582,https://solanart.io/search/?token=HMgNkMHF2bHtc2QeDGU6WhR3rYwbGiTv6okT7VwGJjn2
 2583,3.4,2217,4894,Solana1,Cyborg,Bob Brown,Pink Fangs,Blue,Worry,Tank Top,Helix Hat,,,https://gloom-rarity-page.vercel.app/punk/2583,https://solanart.io/search/?token=5jfGTWEeMkCLmbrKfpHXZarEGidd8B8HenAPs241RmVA
+2584,2.5,5709,4168,Yellow Flat,Black,Ponytail Brown,Pink,Teal,Thin,Tank Top,Horns,,,https://gloom-rarity-page.vercel.app/punk/2584,https://solanart.io/search/?token=Bfg5N9wG8MEZ1uAGuuDfeFVTF1UZHvAsUR3VpmqUUTRt
 2592,1.5,9491,9427,Grey,White,Bob Black,Pink,Teal,Thin,Tshirt,Helix Hat,,,https://gloom-rarity-page.vercel.app/punk/2592,https://solanart.io/search/?token=BqWMF46GLZ1x7GmHBXC7ipxVcT4T2prUH63yMbNgWn9T
 2594,2.5,1668,3534,Yellow,Black,Bob Black,Pink Fangs,Purple,Arched,Hoodie,,Facemask,,https://gloom-rarity-page.vercel.app/punk/2594,https://solanart.io/search/?token=Exz91UDongHVLvWoAuA2vUZpEskqWpHYLDZqCEsP75D9
 2595,4,7548,7595,Yellow,Cyborg,Ponytail Brown,Pink,Blue,Scar,Tshirt,,,,https://gloom-rarity-page.vercel.app/punk/2595,https://solanart.io/search/?token=5TGjYcjSRo3renJ3sn2sLVDfgbyik7smb7o8pmgAzSaJ
@@ -1717,11 +1718,9 @@ id,price,moonRank,rank,background,skin,hair,mouth,eyes,eyebrows,clothes,headAcce
 9529,2,7165,7706,Solana2,White,Bob Brown,Black,Blue,Small,Turtleneck,Top Hat,,,https://gloom-rarity-page.vercel.app/punk/9529,https://solanart.io/search/?token=Ak7bCySHogGLS7ikRFBcTHSA6WevBsPTuXFX9szZ33Fw
 9530,0.99,9334,6436,Blue,White,Bald,Pink,Teal,Arched,Tshirt,,,,https://gloom-rarity-page.vercel.app/punk/9530,https://solanart.io/search/?token=3hTsNNLMBvyvSZskyUrXLd81qTJvAskfAWopUXWvzMux
 9531,22,2281,2167,Solana1,Gold,Ponytail Brown,Pink Fangs,Blue,Scar,Turtleneck,,,,https://gloom-rarity-page.vercel.app/punk/9531,https://solanart.io/search/?token=HqexfW7SSZLq8W9qc2nSMcvRakifSWMHDPbspnwi5JN4
-9534,11,3685,4544,Purple,Black,Ponytail White,Pink,Blue,Arched,Tank Top,,,Monocle Solana,https://gloom-rarity-page.vercel.app/punk/9534,https://solanart.io/search/?token=7hynXidDoau6cBDZKY3z7Rukdm8mBF6ToHEnct4kQVRw
 9535,3,4504,4726,Solana2,White,Bob White,Pink Fangs,Teal,Arched,Tshirt,Mushrooms,,,https://gloom-rarity-page.vercel.app/punk/9535,https://solanart.io/search/?token=5Adt9woFm5cEdGCW38dh5fLXB215Ag6spnMGUMdPo8gF
 9536,9,5840,3518,Grey,White,Bob Black,Pink,Teal,Scar,Turtleneck,Scribbles,,,https://gloom-rarity-page.vercel.app/punk/9536,https://solanart.io/search/?token=Gyksjy5yC3AHp5mSCVePGtD9bTY88TxeZXCTiWQEvifc
 9537,2,6344,6304,Blue,Black,Bob White,Black Fangs,Blue,Arched,Tshirt,,,,https://gloom-rarity-page.vercel.app/punk/9537,https://solanart.io/search/?token=CXwXRCD7B9Ni2GBSi7t31mepLwZeUg5LpCNTBWWQruEX
-9538,11,6025,6220,Teal,Black,Bob White,Pink,Purple,Arched,Bandages,,,,https://gloom-rarity-page.vercel.app/punk/9538,https://solanart.io/search/?token=9ibKVhbkW1PcXyapmm9PkhrxJetPgzrVt1Yby1cuP8uk
 9539,5,779,758,Green,Black,Bald,Pink Fangs,Teal,Scar,Turtleneck,,Piercing,,https://gloom-rarity-page.vercel.app/punk/9539,https://solanart.io/search/?token=CaWYrF9fXEwfqQibEAPUM2cbnXGfue8i1hamAVDcKwaG
 9542,2.5,5597,6848,Green,White,Ponytail Brown,Pink,Blue,Arched,Turtleneck,Horns,Facemask,,https://gloom-rarity-page.vercel.app/punk/9542,https://solanart.io/search/?token=2z7SvKawkzGU3S3cgfdfpoXJ77QMhpF1AYpgFTFgY3F8
 9544,3.9,1209,2291,Blue,Black,Ponytail White,Black,Blue,Thin,Turtleneck,Butterflies,,Monocle Regular,https://gloom-rarity-page.vercel.app/punk/9544,https://solanart.io/search/?token=CGTTbUdo4FkJXDDsfVJ4NgfEosQntMWEjtkHxw51U4Bf
@@ -1790,7 +1789,7 @@ id,price,moonRank,rank,background,skin,hair,mouth,eyes,eyebrows,clothes,headAcce
 9840,0.99,2841,3954,Teal,White,Bob Brown,Gold,Teal,Small,Bandages,Horns,,,https://gloom-rarity-page.vercel.app/punk/9840,https://solanart.io/search/?token=6DGSWHmMKcM8gBGXuJJLxHyJrUGPK1nwuWRXYuASstP3
 9842,9.5,842,592,Blue,White,Ponytail Brown,Pink,Teal,Small,Tshirt,Clouds,Piercing,Monocle Regular,https://gloom-rarity-page.vercel.app/punk/9842,https://solanart.io/search/?token=AWbpWLsTdwYQixQrPgT5m2LGjAGmXeAbFbJd8fQC4hU4
 9851,4.75,4831,3707,Solana2,White,Bald,Pink,Blue,Arched,Turtleneck,,Facemask,,https://gloom-rarity-page.vercel.app/punk/9851,https://solanart.io/search/?token=HSiXAKrgw2f9pDJ4FioS1tUKfLLPHwdoZrn1o3Z1ekUK
-9857,2.5,1011,941,Green,Gold,Ponytail White,Gold,Teal,Arched,Hoodie,,,,https://gloom-rarity-page.vercel.app/punk/9857,https://solanart.io/search/?token=6XkpKRaphgS89ePkBGmVd37wPR8Y28ZgijcdX4W4LtZ8
+9857,2.25,1011,941,Green,Gold,Ponytail White,Gold,Teal,Arched,Hoodie,,,,https://gloom-rarity-page.vercel.app/punk/9857,https://solanart.io/search/?token=6XkpKRaphgS89ePkBGmVd37wPR8Y28ZgijcdX4W4LtZ8
 9864,2,4300,3640,Teal Flat,White,Bob Black,Pink,Teal,Arched,Tshirt,Mushrooms,Facemask,,https://gloom-rarity-page.vercel.app/punk/9864,https://solanart.io/search/?token=EunhYmvk66pJUMWWtvKQJvHQfHDVSkCYyfZBGu5KwYLx
 9871,1.99,576,971,Solana1,Cyborg,Bob White,Pink,Teal,Scar,Bandages,,Gasmask Teal,,https://gloom-rarity-page.vercel.app/punk/9871,https://solanart.io/search/?token=5KGJ9XbAWkNmjsEA7PcVuRddYovoxfTjUSksieCyongZ
 9883,3.75,3829,4668,Solana1,White,Bob Black,Black Fangs,Blue,Worry,Tshirt,Top Hat,,,https://gloom-rarity-page.vercel.app/punk/9883,https://solanart.io/search/?token=AoNPWToJF1xg967CAVmSbErKw4mr7o7y9CCRu4Gbo9uN
